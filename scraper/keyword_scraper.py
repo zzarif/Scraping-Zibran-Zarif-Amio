@@ -5,8 +5,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import urllib.parse
 import pandas as pd
+import argparse
 import time
 import os
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--scroll', type=int, default=2, help='Specify scroll count')
+args = parser.parse_args()
+
 
 def scrape_tiktok_keywords(keywords):
     options = webdriver.ChromeOptions()
@@ -35,12 +42,11 @@ def scrape_tiktok_keywords(keywords):
             continue
         
         # Scroll to load more videos (need to adjust this)
-        for _ in range(2):
+        for _ in range(args.scroll):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(2)
         
         video_posts = driver.find_elements(By.CSS_SELECTOR, "#tabs-0-panel-search_video > div > div > div")
-        print(len(video_posts))
 
         for post in video_posts:
             try:

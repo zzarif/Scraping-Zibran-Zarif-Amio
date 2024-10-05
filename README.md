@@ -81,3 +81,6 @@ python bonus/comment_verifier.py --video_url https://www.tiktok.com/@epicexplori
 
 # Contact
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zibran-zarif-amio-b82717263/) [![Mail](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff)](mailto:zibran.zarif.amio@gmail.com)
+
+Thank you so much for your interest. Would love your valuable feedback!

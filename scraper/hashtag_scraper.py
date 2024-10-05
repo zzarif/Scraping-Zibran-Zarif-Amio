@@ -76,14 +76,14 @@ def scrape_tiktok_hashtags(hashtags):
 hashtags = [
     "traveltok",
     "wanderlust",
-    # "backpackingadventures",
-    # "luxurytravel",
-    # "hiddengems",
-    # "solotravel", 
-    # "roadtripvibes", 
-    # "travelhacks", 
-    # "foodietravel", 
-    # "sustainabletravel"
+    "backpackingadventures",
+    "luxurytravel",
+    "hiddengems",
+    "solotravel", 
+    "roadtripvibes", 
+    "travelhacks", 
+    "foodietravel", 
+    "sustainabletravel"
 ]
 
 scrape_tiktok_hashtags(hashtags)

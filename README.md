@@ -64,7 +64,20 @@ All the scripts are available at [scraper](/scraper/) and [analysis](/analysis/)
 
 # Bonus
 
+1. Like a TikTok video given its URL:
+```bash
+python bonus/like_video.py --video_url https://www.tiktok.com/@epicexploring/video/7415640201051000097
+```
 
+2. Comment on a TikTok video given its URL and comment content:
+```bash
+python bonus/comment_on_video.py --video_url https://www.tiktok.com/@epicexploring/video/7415640201051000097 --comment "nice"
+```
+
+3. Verify whether your comment exists:
+```bash
+python bonus/comment_verifier.py --video_url https://www.tiktok.com/@epicexploring/video/7415640201051000097 --my_name "Zibran"
+```
 
 # Contact
 

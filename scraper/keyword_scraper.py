@@ -76,9 +76,9 @@ def scrape_tiktok_keywords(keywords):
 keywords = [
     "beautiful destinations",
     "places to visit",
-    # "places to travel",
-    # "places that don't feel real",
-    # "travel hacks"
+    "places to travel",
+    "places that don't feel real",
+    "travel hacks"
 ]
 
 scrape_tiktok_keywords(keywords)

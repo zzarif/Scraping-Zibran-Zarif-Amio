@@ -12,8 +12,8 @@ A scraping system that collects data from TikTok, based on specified keywords an
 
 There are 3 files in the [data](/data/) directory. The files are:
 
-1. [`keyword_posts.csv`](/data/keyword_posts.csv): Has all the video post data for the given search keywords (I demostrated the keyword scraping for first two keyowrds due to time constraints, but it can perfectly scrape all the provided keywords given enough time).
-2. [`hashtag_posts.csv`](/data/hashtag_posts.csv): Has all the video post data for the given hashtags (I demostrated the hashtag scraping for first two hashtags due to time constraints, but it can perfectly scrape all the provided hashtags given enough time).
+1. [`keyword_posts.csv`](/data/keyword_posts.csv): Has all the video post data for the given search keywords (I demostrated the keyword scraping for the first two keywords due to time constraints, but it can perfectly scrape all the provided keywords given enough time).
+2. [`hashtag_posts.csv`](/data/hashtag_posts.csv): Has all the video post data for the given hashtags (I demostrated the hashtag scraping for the first two hashtags due to time constraints, but it can perfectly scrape all the provided hashtags given enough time).
 3. [`top_influencers.csv`](/data/top_influencers.csv): Has all the influencer's data that have at least 100k followers an have received over 1 million likes.
 
 # Build from Source
@@ -60,7 +60,7 @@ python scraper/author_info_scraper.py
 python analysis/top_influencers.py
 ```
 
-All the scripts are available at [scraper](/scraper/) directory.
+All the scripts are available at [scraper](/scraper/) and [analysis](/analysis/) directory.
 
 # Bonus
 

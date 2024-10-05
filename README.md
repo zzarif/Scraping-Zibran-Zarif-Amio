@@ -76,7 +76,7 @@ python bonus/comment_on_video.py --video_url https://www.tiktok.com/@epicexplori
 
 3. Verify whether your comment exists:
 ```bash
-python bonus/comment_verifier.py --video_url https://www.tiktok.com/@epicexploring/video/7415640201051000097 --my_name "Zibran"
+python bonus/comment_verifier.py --video_url https://www.tiktok.com/@epicexploring/video/7415640201051000097 --my_name "zibranzarif"
 ```
 
 # Contact

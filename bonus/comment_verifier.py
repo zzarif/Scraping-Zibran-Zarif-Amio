@@ -3,16 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-import urllib.parse
-import pandas as pd
 import argparse
-import time
-import os
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--video_url', type=str, default="https://www.tiktok.com/@epicexploring/video/7415640201051000097", help='Specify TikTok video URL')
-parser.add_argument('--my_name', type=str, default="Zibran Zarif", help='Specify your name')
+parser.add_argument('--my_name', type=str, default="zibranzarif", help='Specify your name')
 args = parser.parse_args()
 
 

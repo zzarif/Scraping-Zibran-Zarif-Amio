@@ -1,14 +1,19 @@
 
-# Scraping Engineer Project - Zibran Zarif Amio
+<h1 align="center">
+  <br>
+  Zelf Hackathon 2.0 - Scraping Engineer - Zibran Zarif Amio
+  <br>
+</h1>
 
-Zelf Hackathon 2.0
+
+A scraping system that collects data from TikTok, based on specified keywords and hashtags, and then analyzes that data to identify top influencers in the tourism industry. The project includes key features such as keyword & hashtag scraping, profile information scraping, and influencer identification.
 
 # Scraped Data
 
 There are 3 files in the [data](/data/) directory. The files are:
 
-1. [`keyword_posts.csv`](/data/keyword_posts.csv): Has all the video post data for the given search keywords.
-2. [`hashtag_posts.csv`](/data/hashtag_posts.csv): Has all the video post data for the given hashtags.
+1. [`keyword_posts.csv`](/data/keyword_posts.csv): Has all the video post data for the given search keywords (I demostrated the keyword scraping for first two keyowrds due to time constraints, but it can perfectly scrape all the provided keywords given enough time).
+2. [`hashtag_posts.csv`](/data/hashtag_posts.csv): Has all the video post data for the given hashtags (I demostrated the hashtag scraping for first two hashtags due to time constraints, but it can perfectly scrape all the provided hashtags given enough time).
 3. [`top_influencers.csv`](/data/top_influencers.csv): Has all the influencer's data that have at least 100k followers an have received over 1 million likes.
 
 # Build from Source

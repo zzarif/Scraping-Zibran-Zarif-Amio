@@ -72,7 +72,7 @@ def scrape_tiktok_hashtags(hashtags):
     
     driver.quit()
 
-# Example usage
+
 hashtags = [
     "traveltok",
     "wanderlust",

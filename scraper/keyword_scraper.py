@@ -72,7 +72,7 @@ def scrape_tiktok_keywords(keywords):
     
     driver.quit()
 
-# Example usage
+
 keywords = [
     "beautiful destinations",
     "places to visit",
